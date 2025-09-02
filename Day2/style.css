@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6e33ae, #db5dc6);
+}
+
+.card {
+  background: #f6def7;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  max-width: 650px;
+  width: 100%;
+  gap: 30px;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  flex: 2;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #6e33ae;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.name {
+  font-size: 26px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #6e33ae, #db5dc6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.role {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.about {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  background: linear-gradient(135deg, #6e33ae, #db5dc6);
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #6e33ae;
+}
